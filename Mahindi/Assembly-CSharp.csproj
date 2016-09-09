@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\InitializeData.cs" />
      <Compile Include="Assets\JoesScript.cs" />
      <Compile Include="Assets\TargetSwitcher.cs" />
  <Reference Include="UnityEngine.Networking">
