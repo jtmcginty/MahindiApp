@@ -1,9 +1,12 @@
-﻿<Properties StartupItem="Mahindi.CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/InitializeData.cs">
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\HarvestTest.cs">
     <Files>
-      <File FileName="Assets/JoesScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/InitializeData.cs" Line="20" Column="2" />
+      <File FileName="Assets\JoesScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\InitializeData.cs" Line="1" Column="1" />
+      <File FileName="Assets\CornGrowTest.cs" Line="18" Column="2" />
+      <File FileName="..\..\Animate_Cube\Assets\TriggerAnim.cs" Line="1" Column="1" />
+      <File FileName="Assets\HarvestTest.cs" Line="17" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
