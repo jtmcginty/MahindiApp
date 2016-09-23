@@ -1,9 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/InitializeData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DataTextManager.cs">
     <Files>
-      <File FileName="Assets/DataTextManager.cs" Line="17" Column="3" />
-      <File FileName="Assets/InitializeData.cs" Line="73" Column="3" />
+      <File FileName="Assets/DataTextManager.cs" Line="164" Column="23" />
+      <File FileName="Assets/InitializeData.cs" Line="106" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
