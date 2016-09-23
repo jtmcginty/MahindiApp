@@ -2,6 +2,7 @@
 using System;
 using System.IO;
 using System.Collections.Generic;
+using System.Linq;
 
 public class InitializeData: MonoBehaviour
 {
@@ -11,21 +12,29 @@ public class InitializeData: MonoBehaviour
 	public string[] dataL;
 	public string[] dataPH;
 	public string[] yieldTotal;
+
+	public string[] dataDAPtest;
+	public string[] dataCANtest;
+	public string[] dataLtest;
+	public string[] dataPHtest;
+	public string[] yieldTotaltest;
+
 	int indexDAP = 0;
 	int indexCAN = 0;
 	int indexL = 0;
 	int indexPH = 0;
 	int indexYield = 0;
+	List<string> listDataDAP = new List<string> ();
+	List<string> listDataCAN = new List<string> ();
+	List<string> listDataL = new List<string> ();
+	List<string> listDataPH = new List<string> ();
+	List<string> listYieldTotal = new List<string> ();
 
 
 	public void getData(){
 		StreamReader reader = File.OpenText("/Users/Jack/Documents/Summary_test.csv");
 		string line;
-		List<string> listDataDAP = new List<string> ();
-		List<string> listDataCAN = new List<string> ();
-		List<string> listDataL = new List<string> ();
-		List<string> listDataPH = new List<string> ();
-		List<string> listYieldTotal = new List<string> ();
+
 		while ((line = reader.ReadLine()) != null) {
 			string[] items = line.Split(',');
 			string words = items[2];
@@ -40,32 +49,36 @@ public class InitializeData: MonoBehaviour
 			listYieldTotal.Add(lineYield);
 		}
 
-		dataDAP = listDataDAP.ToArray ();
-		dataCAN = listDataCAN.ToArray ();
-		dataL = listDataL.ToArray ();
+		dataDAPtest = listDataDAP.ToArray ();
+		dataCANtest = listDataCAN.ToArray ();
+		dataLtest = listDataL.ToArray ();
 		dataPH = listDataPH.ToArray ();
 		yieldTotal = listYieldTotal.ToArray ();
 
-		System.Console.WriteLine ("DAP:");
+		dataDAP = dataDAPtest.Distinct().ToArray ();
+		dataCAN = dataCANtest.Distinct().ToArray ();
+		dataL = dataLtest.Distinct().ToArray ();
+
+		Debug.Log ("DAP:");
 		foreach (string s in dataDAP) {
 			Debug.Log(s);
 		}
-		System.Console.WriteLine ("CAN:");
+		Debug.Log ("CAN:");
 		foreach (string s in dataCAN) {
 			//System.Console.WriteLine (s);
 			Debug.Log (s);
 		}
-		System.Console.WriteLine ("L:");
+		Debug.Log ("L:");
 		foreach (string s in dataL) {
 			//System.Console.WriteLine (s);
 			Debug.Log (s);
 		}
-		System.Console.WriteLine ("PH:");
+		Debug.Log ("PH:");
 		foreach (string s in dataPH) {
 			//System.Console.WriteLine (s);
 			Debug.Log (s);
 		}
-		System.Console.WriteLine ("Yield:");
+		Debug.Log ("Yield:");
 		foreach (string s in yieldTotal) {
 			//System.Console.WriteLine (s);
 			Debug.Log (s);
