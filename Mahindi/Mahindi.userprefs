@@ -1,10 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TargetSwitcher.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\HarvestTest.cs">
     <Files>
       <File FileName="Assets\DataTextManager.cs" Line="1" Column="1" />
       <File FileName="Assets\InitializeData.cs" Line="1" Column="1" />
-      <File FileName="Assets\TargetSwitcher.cs" Line="18" Column="13" />
+      <File FileName="Assets\TargetSwitcher.cs" Line="13" Column="1" />
+      <File FileName="Assets\CenterPlainOnOff.cs" Line="5" Column="1" />
+      <File FileName="Assets\CenterHoleOnOff.cs" Line="15" Column="28" />
+      <File FileName="Assets\CornGrowTest.cs" Line="13" Column="1" />
+      <File FileName="Assets\HarvestTest.cs" Line="19" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
