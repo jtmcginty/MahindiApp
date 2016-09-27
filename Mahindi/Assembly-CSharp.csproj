@@ -52,6 +52,7 @@
      <Compile Include="Assets\HarvestTest.cs" />
      <Compile Include="Assets\InitializeData.cs" />
      <Compile Include="Assets\JoesScript.cs" />
+     <Compile Include="Assets\StickPoke.cs" />
      <Compile Include="Assets\TargetSwitcher.cs" />
      <Compile Include="Assets\showText.cs" />
  <Reference Include="UnityEngine.UI">
