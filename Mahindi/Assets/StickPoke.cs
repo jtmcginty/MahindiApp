@@ -19,4 +19,8 @@ public class StickPoke : MonoBehaviour
 		rend.enabled = true;
 		anim.SetTrigger (buttonHash);
 	}
+	public void PrintEvent(string s)
+	{
+		Debug.Log("PrintEvent: " + s + " called at: " + Time.time);
+	}
 }

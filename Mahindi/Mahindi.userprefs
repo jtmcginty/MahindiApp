@@ -7,9 +7,9 @@
       <File FileName="Assets\TargetSwitcher.cs" Line="1" Column="1" />
       <File FileName="Assets\CenterPlainOnOff.cs" Line="1" Column="1" />
       <File FileName="Assets\CenterHoleOnOff.cs" Line="1" Column="1" />
-      <File FileName="Assets\CornGrowTest.cs" Line="22" Column="2" />
-      <File FileName="Assets\HarvestTest.cs" Line="13" Column="3" />
-      <File FileName="Assets\StickPoke.cs" Line="8" Column="49" />
+      <File FileName="Assets\CornGrowTest.cs" Line="1" Column="1" />
+      <File FileName="Assets\HarvestTest.cs" Line="1" Column="1" />
+      <File FileName="Assets\StickPoke.cs" Line="22" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
