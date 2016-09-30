@@ -47,14 +47,15 @@
   <ItemGroup>
      <Compile Include="Assets\DataTextManager.cs" />
      <Compile Include="Assets\InitializeData.cs" />
+     <Compile Include="Assets\anim_scripts\AnimateNowScript.cs" />
      <Compile Include="Assets\anim_scripts\CenterHoleOnOff.cs" />
      <Compile Include="Assets\anim_scripts\CenterPlainOnOff.cs" />
      <Compile Include="Assets\anim_scripts\CornGrowTest.cs" />
-     <Compile Include="Assets\anim_scripts\HandPlant.cs" />
      <Compile Include="Assets\anim_scripts\HarvestTest.cs" />
      <Compile Include="Assets\anim_scripts\JoesScript.cs" />
-     <Compile Include="Assets\anim_scripts\StickPoke.cs" />
+     <Compile Include="Assets\anim_scripts\MakeHole.cs" />
      <Compile Include="Assets\anim_scripts\TargetSwitcher.cs" />
+     <Compile Include="Assets\anim_scripts\Visibility.cs" />
      <Compile Include="Assets\showText.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

@@ -1,21 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class HandPlant : MonoBehaviour {
+public class Visibility : MonoBehaviour {
 	public Renderer rend;
-	Animator anim;
-	int buttonHash = Animator.StringToHash("AnimGo");
 
 	// Use this for initialization
 	void Start () {
-		anim = GetComponent<Animator>();
 		rend = GetComponent<Renderer>();
 		rend.enabled = false;
 	}
 	
-	public void AnimateNow()
+	public void ShowNow()
 	{
 		rend.enabled = true;
-		anim.SetTrigger (buttonHash);
+	}
+	public void HideNow()
+	{
+		rend.enabled = false;
 	}
 }
