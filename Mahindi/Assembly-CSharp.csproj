@@ -54,6 +54,7 @@
      <Compile Include="Assets\anim_scripts\HarvestTest.cs" />
      <Compile Include="Assets\anim_scripts\JoesScript.cs" />
      <Compile Include="Assets\anim_scripts\MakeHole.cs" />
+     <Compile Include="Assets\anim_scripts\StopAnimationScript.cs" />
      <Compile Include="Assets\anim_scripts\TargetSwitcher.cs" />
      <Compile Include="Assets\anim_scripts\Visibility.cs" />
      <Compile Include="Assets\showText.cs" />
